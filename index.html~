@@ -12,7 +12,7 @@
     <title>AZ Seguridad Privada</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="justified-nav.css" rel="stylesheet">
@@ -57,7 +57,7 @@
 	<!-- Carousel -->
 	
   <div class="row">
-  <div class="col-md-8">	
+  <div class="col-md-6">	
   <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -103,13 +103,6 @@
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-</div>
-</div>
-<div class="col-md-4">
-<div class="jumbotron">
-  <h3 class="text-danger">Descargue nuestro estado del arte</h3>
-  <p class="text-muted"><small>Nuestra misión, visión e identidad en un solo archivo</small></p>
-  <p><a class="btn btn-success" href="#" role="button">Descargar <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span></a></p>
 </div>
 </div>
 </div>

@@ -1588,7 +1588,13 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+
+.top-margin{
+  margin-top: 15px;
+}
+
 .row {
+  margin-top: 15px;
   margin-right: -15px;
   margin-left: -15px;
 }
@@ -4841,7 +4847,7 @@ a.badge:focus {
   padding: 30px 15px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #eee;
+  background-color: #cccccc;
 }
 .jumbotron h1,
 .jumbotron .h1 {
