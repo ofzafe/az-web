@@ -2,25 +2,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-     <style>
-      #map-canvas {
-        width: 700px;
-        height: 300px; 
-      }
-    </style>
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
-    <script>
-      function initialize() {
-        var mapCanvas = document.getElementById('map-canvas');
-        var mapOptions = {
-          center: new google.maps.LatLng(-27.1671322,-65.4950809),
-          zoom: 15,
-          mapTypeId: google.maps.MapTypeId.HYBRID
-        }
-        var map = new google.maps.Map(mapCanvas, mapOptions)
-      }
-      google.maps.event.addDomListener(window, 'load', initialize);
-    </script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -183,11 +164,18 @@
       <div class="panel-heading"><h3 class="panel-title">Empresa</h3></div>
       <div class="panel-body">
       <div class="col-md-8">
-      <div id="map-canvas"></div>
+      <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" width="700" height="320" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=-65.50505876541138%2C-27.170971413029946%2C-65.49378275871277%2C-27.16497706376133&amp;layer=mapnik&amp;marker=-27.16797427862826%2C-65.49942076206207" style="border: 1px solid #ffb2c1; border-radius: 6px;"></iframe><br/>
       </div>
-      <div class="col-md-4">
+      </div>
+      <div class="col-md-4 bg-warning">
         <div style="text-align: center;"><img id="logo-img" src="logo-mono.png" width="200" height="200" style="vertical-align: middle;"></div>
-        <p style="text-align: center; vertical-align: center;">AZ Servicios Integrales S.R.L. es una empresa de origen tucumano que brinda servicios que responden a las necesidades de todo el NOA. Nuestra sede central se encuentra en J.B. Alberdi 320 ciudad de Monteros, Tucumán</p>
+        <p class="text-danger" style="text-align: center; vertical-align: center;">AZ Servicios Integrales S.R.L. es una empresa de origen tucumano que brinda servicios que responden a las necesidades de todo el NOA. Nuestra sede central se encuentra en J.B. Alberdi 320 ciudad de Monteros, Tucumán</p>
+        <div style="text-align: center">
+        <p class="text-primary"><span class="glyphicon glyphicon-home"> Juan B. Alberdi 320, Monteros</span></p>
+        <p class="text-primary"><span class="glyphicon glyphicon-earphone"></span> (03865) 569104</p>
+        <p><a href="http://www.azserviciosintegrales.com"><span class="glyphicon glyphicon-globe"></span> azserviciosintegrales.com</p></a>
+        </div>
       </div>
       </div>
       </div>
