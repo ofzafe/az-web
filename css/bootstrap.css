@@ -28,6 +28,17 @@ section,
 summary {
   display: block;
 }
+
+footer{
+  color: #AAAAAA;
+  border-radius: 6px;
+  text-align:  center;
+  background-image: url("../footer.png");
+}
+.p{
+  text-align: center;
+}
+
 audio,
 canvas,
 progress,
@@ -4847,7 +4858,7 @@ a.badge:focus {
   padding: 30px 15px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #cccccc;
+  background-image: url("../footer.png");
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -6568,5 +6579,9 @@ button.close {
   .hidden-print {
     display: none !important;
   }
+}
+
+#logo-img:hover{
+  content: url("../logo.png");
 }
 /*# sourceMappingURL=bootstrap.css.map */
